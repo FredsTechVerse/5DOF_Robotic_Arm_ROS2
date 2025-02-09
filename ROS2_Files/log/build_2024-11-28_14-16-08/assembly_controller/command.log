@@ -1,0 +1,4 @@
+Invoking command in '/home/sally/doingthis_again/build/assembly_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sally/doingthis_again/build/assembly_controller -- -j4 -l4
+Invoked command in '/home/sally/doingthis_again/build/assembly_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sally/doingthis_again/build/assembly_controller -- -j4 -l4
+Invoking command in '/home/sally/doingthis_again/build/assembly_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sally/doingthis_again/build/assembly_controller
+Invoked command in '/home/sally/doingthis_again/build/assembly_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sally/doingthis_again/build/assembly_controller

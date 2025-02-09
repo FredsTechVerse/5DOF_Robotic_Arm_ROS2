@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<robot name="arm" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+
+    <ros2_control name="RobotSystem" type="system">
+
+    <xacro:property name="PI" value="3.14159"/>
+
+
+        <hardware>
+            <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+        </hardware>
+
+
+
+
+        <joint name="Revolute 7">
+            <command_interface name="position">
+                <!-- <param name="min">0.0</param>
+                <param name="max">6.283185</param> -->
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+
+
+
+         <joint name="Revolute 8">
+            <command_interface name="position">
+                <!-- <param name="min">-${PI/2}</param>
+                <param name="max">${PI/2}</param> -->
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+
+
+         <joint name="Revolute 9">
+            <command_interface name="position">
+                <!-- <param name="min">-${PI/2}</param>
+                <param name="max">${PI/2}</param> -->
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+
+
+         <joint name="Revolute 10">
+            <command_interface name="position">
+                <!-- <param name="min">-${PI/2}</param>
+                <param name="max">${PI/2}</param> -->
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+
+
+         <joint name="Revolute 11">
+            <command_interface name="position">
+                <!-- <param name="min">-${PI/2}</param>
+                <param name="max">${PI/2}</param> -->
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+
+
+
+
+
+    </ros2_control>
+
+
+
+</robot>

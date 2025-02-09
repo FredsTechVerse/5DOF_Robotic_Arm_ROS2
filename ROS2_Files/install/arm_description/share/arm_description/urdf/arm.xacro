@@ -1,0 +1,191 @@
+<?xml version="1.0" ?>
+<robot name="arm" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find arm_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find arm_description)/urdf/arm.trans" />
+<xacro:include filename="$(find arm_description)/urdf/control_gazebo.xacro" />
+<xacro:include filename="$(find arm_description)/urdf/ros2_control_gazebo.xacro" />
+
+
+
+<xacro:property name="PI" value="3.14159"/>
+<xacro:property name="effort" value="30.0"/>
+<xacro:property name="velocity" value="100.0"/>
+
+
+<link name = "world"/>
+
+<joint name= "world_joint" type= "fixed">
+<origin xyz ="0 0 0.053" rpy = " 0 0 0"/>
+<parent link = "world"/>
+<child link = "base_link"/>
+</joint> 
+
+
+<link name="base_link">
+  <inertial>
+    <origin xyz="0.01297678472869578 0.0004931136511695544 -0.027170409816784716" rpy="0 0 0"/>
+    <mass value="1.1442820367715534"/>
+    <inertia ixx="0.002223" iyy="0.002343" izz="0.004143" ixy="7.1e-05" iyz="-1e-05" ixz="6e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://arm_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="abs_white"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://arm_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="BASE_UPPER_X1_v1_1">
+  <inertial>
+    <origin xyz="-0.00016865746740639252 -0.005827982004896952 0.012971278491810938" rpy="0 0 0"/>
+    <mass value="0.4266053064817093"/>
+    <inertia ixx="0.0006" iyy="0.00055" izz="0.001003" ixy="-8.8e-05" iyz="2.2e-05" ixz="-1e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 0.0 -0.007555" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://arm_description/meshes/BASE_UPPER_X1_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="abs_white"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 0.0 -0.007555" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://arm_description/meshes/BASE_UPPER_X1_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Link_1.1_X1_v1_1">
+  <inertial>
+    <origin xyz="0.030941718353305704 -0.05467695203648474 0.04832406231915467" rpy="0 0 0"/>
+    <mass value="0.9064152297005319"/>
+    <inertia ixx="0.001012" iyy="0.001094" izz="0.001066" ixy="0.000161" iyz="0.000309" ixz="-0.000405"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.042427 -0.018357 -0.030855" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://arm_description/meshes/Link_1.1_X1_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="steel_satin"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.042427 -0.018357 -0.030855" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://arm_description/meshes/Link_1.1_X1_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="LINK_2.2_X1_v1_1">
+  <inertial>
+    <origin xyz="-0.0012554755606365292 -0.02661819907179737 0.06887843375758153" rpy="0 0 0"/>
+    <mass value="0.7202965714437422"/>
+    <inertia ixx="0.000844" iyy="0.000807" izz="0.000282" ixy="-5.7e-05" iyz="8.9e-05" ixz="-0.000105"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.111987 0.038921 -0.106385" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://arm_description/meshes/LINK_2.2_X1_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="steel_satin"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.111987 0.038921 -0.106385" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://arm_description/meshes/LINK_2.2_X1_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="LINK_3.3._X1_v1_1">
+  <inertial>
+    <origin xyz="0.02246508208288306 -0.039906076295306535 0.005617292092273352" rpy="0 0 0"/>
+    <mass value="0.659317299109449"/>
+    <inertia ixx="0.000244" iyy="0.000264" izz="0.000302" ixy="3.3e-05" iyz="1.5e-05" ixz="-1.9e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.127928 0.055513 -0.21095" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://arm_description/meshes/LINK_3.3._X1_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="steel_satin"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.127928 0.055513 -0.21095" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://arm_description/meshes/LINK_3.3._X1_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="GRIPPER_X1_v1_1">
+  <inertial>
+    <origin xyz="0.05413800585313938 -0.031460795287553495 0.009919075479424388" rpy="0 0 0"/>
+    <mass value="0.35779402556630735"/>
+    <inertia ixx="0.000223" iyy="0.000349" izz="0.000512" ixy="0.000145" iyz="3e-05" ixz="-5.3e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.170442 0.110464 -0.236716" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://arm_description/meshes/GRIPPER_X1_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="steel_satin"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.170442 0.110464 -0.236716" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://arm_description/meshes/GRIPPER_X1_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="Revolute 7" type="revolute">
+  <origin xyz="0.0 0.0 0.007555" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="BASE_UPPER_X1_v1_1"/>
+  <axis xyz="-0.0 -0.0 1.0"/>
+  <limit upper="6.283185" lower="0.0" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Revolute 8" type="revolute">
+  <origin xyz="0.042427 0.018357 0.0233" rpy="0 0 0"/>
+  <parent link="BASE_UPPER_X1_v1_1"/>
+  <child link="Link_1.1_X1_v1_1"/>
+  <axis xyz="0.598543 0.801091 0.0"/>
+  <limit upper="0.174533" lower="-0.087266" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Revolute 9" type="revolute">
+  <origin xyz="0.06956 -0.057278 0.07553" rpy="0 0 0"/>
+  <parent link="Link_1.1_X1_v1_1"/>
+  <child link="LINK_2.2_X1_v1_1"/>
+  <axis xyz="-0.598543 -0.801091 0.0"/>
+  <limit upper="0.436332" lower="-1.658063" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Revolute 10" type="revolute">
+  <origin xyz="0.015941 -0.016592 0.104565" rpy="0 0 0"/>
+  <parent link="LINK_2.2_X1_v1_1"/>
+  <child link="LINK_3.3._X1_v1_1"/>
+  <axis xyz="-0.598543 -0.801091 0.0"/>
+  <limit upper="1.134464" lower="-0.436332" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Revolute 11" type="revolute">
+  <origin xyz="0.042514 -0.054951 0.025766" rpy="0 0 0"/>
+  <parent link="LINK_3.3._X1_v1_1"/>
+  <child link="GRIPPER_X1_v1_1"/>
+  <axis xyz="0.801084 -0.598538 0.003974"/>
+  <limit upper="6.283185" lower="0.0" effort="100" velocity="100"/>
+</joint>
+
+</robot>

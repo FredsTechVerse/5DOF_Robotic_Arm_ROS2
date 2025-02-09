@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<robot name="arm">
+    <group name="arm">
+        <joint name="world_joint"/>
+
+        <joint name="Revolute 7"/>
+        <joint name="Revolute 8"/>
+        <joint name="Revolute 9"/>
+        <joint name="Revolute 10"/>
+        <joint name="Revolute 11"/>
+
+    </group>
+ 
+    <!-- <group name="gripper">
+        <joint name="joint_6"/>
+        <joint name="joint_7"/>
+    </group> -->
+
+
+    <group_state name="home" group="arm">
+        <joint name="Revolute 7" value="0"/>
+        <joint name="Revolute 8" value="0"/>
+        <joint name="Revolute 9" value="0"/>
+        <joint name="Revolute 10" value="0"/>
+        <joint name="Revolute 11" value="0"/>
+
+    </group_state>
+
+    <!-- <group_state name="home" group="gripper">
+        <joint name="joint_6" value="0"/>
+        <joint name="joint_7" value="0"/>
+
+    </group_state> -->
+
+    <!--DISABLE COLLISIONS: By default it is assumed that any link of the robot could potentially come into collision with any other link in the robot. This tag disables collision checking between a specified pair of links. -->
+
+    <disable_collisions link1="base_link" link2="BASE_UPPER_X1_v1_1" reason="Adjacent"/>
+    <disable_collisions link1="base_link" link2="Link_1.1_X1_v1_1" reason="Never"/>
+    <disable_collisions link1="base_link" link2="LINK_2.2_X1_v1_1" reason="Never"/>
+    <disable_collisions link1="base_link" link2="LINK_3.3._X1_v1_1" reason="Never"/>
+    <disable_collisions link1="base_link" link2="GRIPPER_X1_v1_1" reason="Never"/>
+
+
+
+
+    <disable_collisions link1="BASE_UPPER_X1_v1_1" link2="Link_1.1_X1_v1_1" reason="Never"/>
+    <disable_collisions link1="BASE_UPPER_X1_v1_1" link2="LINK_2.2_X1_v1_1" reason="Never"/>
+    <disable_collisions link1="BASE_UPPER_X1_v1_1" link2="LINK_3.3._X1_v1_1" reason="Never"/>
+    <disable_collisions link1="BASE_UPPER_X1_v1_1" link2="GRIPPER_X1_v1_1" reason="Never"/>
+
+
+    <disable_collisions link1="Link_1.1_X1_v1_1" link2="LINK_2.2_X1_v1_1" reason="Never"/>
+    <disable_collisions link1="Link_1.1_X1_v1_1" link2="LINK_3.3._X1_v1_1" reason="Never"/>
+    <disable_collisions link1="Link_1.1_X1_v1_1" link2="GRIPPER_X1_v1_1" reason="Never"/>
+
+
+    <disable_collisions link1="LINK_2.2_X1_v1_1" link2="LINK_3.3._X1_v1_1" reason="Never"/>
+    <disable_collisions link1="LINK_2.2_X1_v1_1" link2="GRIPPER_X1_v1_1" reason="Never"/>
+
+     <disable_collisions link1="GRIPPER_X1_v1_1" link2="LINK_3.3._X1_v1_1" reason="Never"/>
+    
+
+    </robot>

@@ -1,0 +1,9 @@
+# Default initial positions for front_pegasus's ros2_control fake system
+
+initial_positions:
+  Revolute 7: 0
+  Revolute 8: 0
+  Revolute 9: 0
+  Revolute 10: 0
+  Revolute 11: 0
+   

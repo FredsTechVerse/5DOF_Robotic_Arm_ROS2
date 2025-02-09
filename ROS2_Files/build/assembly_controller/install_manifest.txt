@@ -1,0 +1,17 @@
+/home/sally/doingthis_again/install/assembly_controller/share/assembly_controller/config/arm_controllers.yaml
+/home/sally/doingthis_again/install/assembly_controller/share/assembly_controller/launch/robot.launch.py
+/home/sally/doingthis_again/install/assembly_controller/share/ament_index/resource_index/package_run_dependencies/assembly_controller
+/home/sally/doingthis_again/install/assembly_controller/share/ament_index/resource_index/parent_prefix_path/assembly_controller
+/home/sally/doingthis_again/install/assembly_controller/share/assembly_controller/environment/ament_prefix_path.sh
+/home/sally/doingthis_again/install/assembly_controller/share/assembly_controller/environment/ament_prefix_path.dsv
+/home/sally/doingthis_again/install/assembly_controller/share/assembly_controller/environment/path.sh
+/home/sally/doingthis_again/install/assembly_controller/share/assembly_controller/environment/path.dsv
+/home/sally/doingthis_again/install/assembly_controller/share/assembly_controller/local_setup.bash
+/home/sally/doingthis_again/install/assembly_controller/share/assembly_controller/local_setup.sh
+/home/sally/doingthis_again/install/assembly_controller/share/assembly_controller/local_setup.zsh
+/home/sally/doingthis_again/install/assembly_controller/share/assembly_controller/local_setup.dsv
+/home/sally/doingthis_again/install/assembly_controller/share/assembly_controller/package.dsv
+/home/sally/doingthis_again/install/assembly_controller/share/ament_index/resource_index/packages/assembly_controller
+/home/sally/doingthis_again/install/assembly_controller/share/assembly_controller/cmake/assembly_controllerConfig.cmake
+/home/sally/doingthis_again/install/assembly_controller/share/assembly_controller/cmake/assembly_controllerConfig-version.cmake
+/home/sally/doingthis_again/install/assembly_controller/share/assembly_controller/package.xml

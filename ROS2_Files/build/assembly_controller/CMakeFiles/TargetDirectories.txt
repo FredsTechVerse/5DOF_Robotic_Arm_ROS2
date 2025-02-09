@@ -1,0 +1,9 @@
+/home/sally/doingthis_again/build/assembly_controller/CMakeFiles/uninstall.dir
+/home/sally/doingthis_again/build/assembly_controller/CMakeFiles/assembly_controller_uninstall.dir
+/home/sally/doingthis_again/build/assembly_controller/CMakeFiles/test.dir
+/home/sally/doingthis_again/build/assembly_controller/CMakeFiles/edit_cache.dir
+/home/sally/doingthis_again/build/assembly_controller/CMakeFiles/rebuild_cache.dir
+/home/sally/doingthis_again/build/assembly_controller/CMakeFiles/list_install_components.dir
+/home/sally/doingthis_again/build/assembly_controller/CMakeFiles/install.dir
+/home/sally/doingthis_again/build/assembly_controller/CMakeFiles/install/local.dir
+/home/sally/doingthis_again/build/assembly_controller/CMakeFiles/install/strip.dir

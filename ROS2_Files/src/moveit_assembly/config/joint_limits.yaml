@@ -1,0 +1,34 @@
+default_velocity_scaling_factor: 0.1
+default_acceleration_scaling_factor: 0.1
+
+
+joint_limits:
+  Revolute 7:
+    has_velocity_limits: true
+    max_velocity: 10.0 
+    has_acceleration_limits: false
+    max_acceleration: 0.0
+
+  Revolute 8:
+    has_velocity_limits: true
+    max_velocity: 10.0 
+    has_acceleration_limits: false
+    max_acceleration: 0.0
+
+  Revolute 9:
+    has_velocity_limits: true
+    max_velocity: 10.0 
+    has_acceleration_limits: false
+    max_acceleration: 0.0
+    
+  Revolute 10:
+    has_velocity_limits: true
+    max_velocity: 10.0 
+    has_acceleration_limits: false
+    max_acceleration: 0.0
+
+  Revolute 11:
+    has_velocity_limits: true
+    max_velocity: 10.0 
+    has_acceleration_limits: false
+    max_acceleration: 0.0

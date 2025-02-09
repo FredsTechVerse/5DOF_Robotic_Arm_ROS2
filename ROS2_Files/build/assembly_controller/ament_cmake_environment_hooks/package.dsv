@@ -1,0 +1,4 @@
+source;share/assembly_controller/local_setup.bash
+source;share/assembly_controller/local_setup.dsv
+source;share/assembly_controller/local_setup.sh
+source;share/assembly_controller/local_setup.zsh

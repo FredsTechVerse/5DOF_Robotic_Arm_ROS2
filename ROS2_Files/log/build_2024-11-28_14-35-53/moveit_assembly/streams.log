@@ -1,0 +1,30 @@
+[0.026s] Invoking command in '/home/sally/doingthis_again/build/moveit_assembly': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sally/doingthis_again/build/moveit_assembly -- -j4 -l4
+[0.111s] Invoked command in '/home/sally/doingthis_again/build/moveit_assembly' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sally/doingthis_again/build/moveit_assembly -- -j4 -l4
+[0.152s] Invoking command in '/home/sally/doingthis_again/build/moveit_assembly': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sally/doingthis_again/build/moveit_assembly
+[0.163s] -- Install configuration: ""
+[0.163s] -- Up-to-date: /home/sally/doingthis_again/install/moveit_assembly/share/moveit_assembly/launch
+[0.164s] -- Up-to-date: /home/sally/doingthis_again/install/moveit_assembly/share/moveit_assembly/launch/robot_moveit.launch.py
+[0.164s] -- Up-to-date: /home/sally/doingthis_again/install/moveit_assembly/share/moveit_assembly/config
+[0.164s] -- Up-to-date: /home/sally/doingthis_again/install/moveit_assembly/share/moveit_assembly/config/moveit.rviz
+[0.165s] -- Up-to-date: /home/sally/doingthis_again/install/moveit_assembly/share/moveit_assembly/config/joint_limits.yaml
+[0.165s] -- Up-to-date: /home/sally/doingthis_again/install/moveit_assembly/share/moveit_assembly/config/kinematics.yaml
+[0.165s] -- Up-to-date: /home/sally/doingthis_again/install/moveit_assembly/share/moveit_assembly/config/moveit_controllers.yaml
+[0.165s] -- Installing: /home/sally/doingthis_again/install/moveit_assembly/share/moveit_assembly/config/arm.srdf
+[0.165s] -- Up-to-date: /home/sally/doingthis_again/install/moveit_assembly/share/moveit_assembly/config/initial_positions.yaml
+[0.166s] -- Up-to-date: /home/sally/doingthis_again/install/moveit_assembly/share/moveit_assembly/config/pilz_cartesian_limits.yaml
+[0.166s] -- Up-to-date: /home/sally/doingthis_again/install/moveit_assembly/share/ament_index/resource_index/package_run_dependencies/moveit_assembly
+[0.166s] -- Up-to-date: /home/sally/doingthis_again/install/moveit_assembly/share/ament_index/resource_index/parent_prefix_path/moveit_assembly
+[0.166s] -- Up-to-date: /home/sally/doingthis_again/install/moveit_assembly/share/moveit_assembly/environment/ament_prefix_path.sh
+[0.166s] -- Up-to-date: /home/sally/doingthis_again/install/moveit_assembly/share/moveit_assembly/environment/ament_prefix_path.dsv
+[0.167s] -- Up-to-date: /home/sally/doingthis_again/install/moveit_assembly/share/moveit_assembly/environment/path.sh
+[0.167s] -- Up-to-date: /home/sally/doingthis_again/install/moveit_assembly/share/moveit_assembly/environment/path.dsv
+[0.167s] -- Up-to-date: /home/sally/doingthis_again/install/moveit_assembly/share/moveit_assembly/local_setup.bash
+[0.167s] -- Up-to-date: /home/sally/doingthis_again/install/moveit_assembly/share/moveit_assembly/local_setup.sh
+[0.167s] -- Up-to-date: /home/sally/doingthis_again/install/moveit_assembly/share/moveit_assembly/local_setup.zsh
+[0.167s] -- Up-to-date: /home/sally/doingthis_again/install/moveit_assembly/share/moveit_assembly/local_setup.dsv
+[0.167s] -- Installing: /home/sally/doingthis_again/install/moveit_assembly/share/moveit_assembly/package.dsv
+[0.168s] -- Up-to-date: /home/sally/doingthis_again/install/moveit_assembly/share/ament_index/resource_index/packages/moveit_assembly
+[0.168s] -- Up-to-date: /home/sally/doingthis_again/install/moveit_assembly/share/moveit_assembly/cmake/moveit_assemblyConfig.cmake
+[0.168s] -- Up-to-date: /home/sally/doingthis_again/install/moveit_assembly/share/moveit_assembly/cmake/moveit_assemblyConfig-version.cmake
+[0.169s] -- Up-to-date: /home/sally/doingthis_again/install/moveit_assembly/share/moveit_assembly/package.xml
+[0.174s] Invoked command in '/home/sally/doingthis_again/build/moveit_assembly' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sally/doingthis_again/build/moveit_assembly

@@ -1,0 +1,38 @@
+[0.028s] Invoking command in '/home/sally/doingthis_again/build/arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sally/doingthis_again/build/arm_description -- -j4 -l4
+[0.089s] Invoked command in '/home/sally/doingthis_again/build/arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sally/doingthis_again/build/arm_description -- -j4 -l4
+[0.136s] Invoking command in '/home/sally/doingthis_again/build/arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sally/doingthis_again/build/arm_description
+[0.152s] -- Install configuration: ""
+[0.153s] -- Up-to-date: /home/sally/doingthis_again/install/arm_description/share/arm_description/meshes
+[0.153s] -- Up-to-date: /home/sally/doingthis_again/install/arm_description/share/arm_description/meshes/base_link.stl
+[0.153s] -- Up-to-date: /home/sally/doingthis_again/install/arm_description/share/arm_description/meshes/LINK_2.2_X1_v1_1.stl
+[0.154s] -- Up-to-date: /home/sally/doingthis_again/install/arm_description/share/arm_description/meshes/Link_1.1_X1_v1_1.stl
+[0.154s] -- Up-to-date: /home/sally/doingthis_again/install/arm_description/share/arm_description/meshes/LINK_3.3._X1_v1_1.stl
+[0.154s] -- Up-to-date: /home/sally/doingthis_again/install/arm_description/share/arm_description/meshes/GRIPPER_X1_v1_1.stl
+[0.154s] -- Up-to-date: /home/sally/doingthis_again/install/arm_description/share/arm_description/meshes/BASE_UPPER_X1_v1_1.stl
+[0.154s] -- Up-to-date: /home/sally/doingthis_again/install/arm_description/share/arm_description/urdf
+[0.154s] -- Up-to-date: /home/sally/doingthis_again/install/arm_description/share/arm_description/urdf/ros2_control_gazebo.xacro
+[0.155s] -- Up-to-date: /home/sally/doingthis_again/install/arm_description/share/arm_description/urdf/control_gazebo.xacro
+[0.155s] -- Up-to-date: /home/sally/doingthis_again/install/arm_description/share/arm_description/urdf/arm.trans
+[0.155s] -- Up-to-date: /home/sally/doingthis_again/install/arm_description/share/arm_description/urdf/materials.xacro
+[0.155s] -- Up-to-date: /home/sally/doingthis_again/install/arm_description/share/arm_description/urdf/arm.xacro
+[0.155s] -- Up-to-date: /home/sally/doingthis_again/install/arm_description/share/arm_description/launch
+[0.155s] -- Up-to-date: /home/sally/doingthis_again/install/arm_description/share/arm_description/launch/simulate_gazebo.launch.py
+[0.156s] -- Up-to-date: /home/sally/doingthis_again/install/arm_description/share/arm_description/launch/robot_description.launch.py
+[0.156s] -- Up-to-date: /home/sally/doingthis_again/install/arm_description/share/arm_description/rviz
+[0.156s] -- Up-to-date: /home/sally/doingthis_again/install/arm_description/share/arm_description/rviz/display.rviz
+[0.156s] -- Up-to-date: /home/sally/doingthis_again/install/arm_description/share/ament_index/resource_index/package_run_dependencies/arm_description
+[0.156s] -- Up-to-date: /home/sally/doingthis_again/install/arm_description/share/ament_index/resource_index/parent_prefix_path/arm_description
+[0.156s] -- Up-to-date: /home/sally/doingthis_again/install/arm_description/share/arm_description/environment/ament_prefix_path.sh
+[0.157s] -- Up-to-date: /home/sally/doingthis_again/install/arm_description/share/arm_description/environment/ament_prefix_path.dsv
+[0.158s] -- Up-to-date: /home/sally/doingthis_again/install/arm_description/share/arm_description/environment/path.sh
+[0.159s] -- Up-to-date: /home/sally/doingthis_again/install/arm_description/share/arm_description/environment/path.dsv
+[0.159s] -- Up-to-date: /home/sally/doingthis_again/install/arm_description/share/arm_description/local_setup.bash
+[0.159s] -- Up-to-date: /home/sally/doingthis_again/install/arm_description/share/arm_description/local_setup.sh
+[0.159s] -- Up-to-date: /home/sally/doingthis_again/install/arm_description/share/arm_description/local_setup.zsh
+[0.159s] -- Up-to-date: /home/sally/doingthis_again/install/arm_description/share/arm_description/local_setup.dsv
+[0.159s] -- Installing: /home/sally/doingthis_again/install/arm_description/share/arm_description/package.dsv
+[0.159s] -- Up-to-date: /home/sally/doingthis_again/install/arm_description/share/ament_index/resource_index/packages/arm_description
+[0.160s] -- Up-to-date: /home/sally/doingthis_again/install/arm_description/share/arm_description/cmake/arm_descriptionConfig.cmake
+[0.160s] -- Up-to-date: /home/sally/doingthis_again/install/arm_description/share/arm_description/cmake/arm_descriptionConfig-version.cmake
+[0.160s] -- Up-to-date: /home/sally/doingthis_again/install/arm_description/share/arm_description/package.xml
+[0.177s] Invoked command in '/home/sally/doingthis_again/build/arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sally/doingthis_again/build/arm_description

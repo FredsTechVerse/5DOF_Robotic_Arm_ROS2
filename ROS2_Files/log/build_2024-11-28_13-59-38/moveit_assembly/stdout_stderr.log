@@ -1,0 +1,26 @@
+-- Install configuration: ""
+-- Up-to-date: /home/sally/doingthis_again/install/moveit_assembly/share/moveit_assembly/launch
+-- Installing: /home/sally/doingthis_again/install/moveit_assembly/share/moveit_assembly/launch/robot_moveit.launch.py
+-- Up-to-date: /home/sally/doingthis_again/install/moveit_assembly/share/moveit_assembly/config
+-- Installing: /home/sally/doingthis_again/install/moveit_assembly/share/moveit_assembly/config/moveit.rviz
+-- Up-to-date: /home/sally/doingthis_again/install/moveit_assembly/share/moveit_assembly/config/joint_limits.yaml
+-- Up-to-date: /home/sally/doingthis_again/install/moveit_assembly/share/moveit_assembly/config/kinematics.yaml
+-- Up-to-date: /home/sally/doingthis_again/install/moveit_assembly/share/moveit_assembly/config/moveit_controllers.yaml
+-- Installing: /home/sally/doingthis_again/install/moveit_assembly/share/moveit_assembly/config/arm.srdf
+-- Up-to-date: /home/sally/doingthis_again/install/moveit_assembly/share/moveit_assembly/config/initial_positions.yaml
+-- Up-to-date: /home/sally/doingthis_again/install/moveit_assembly/share/moveit_assembly/config/pilz_cartesian_limits.yaml
+-- Up-to-date: /home/sally/doingthis_again/install/moveit_assembly/share/ament_index/resource_index/package_run_dependencies/moveit_assembly
+-- Up-to-date: /home/sally/doingthis_again/install/moveit_assembly/share/ament_index/resource_index/parent_prefix_path/moveit_assembly
+-- Up-to-date: /home/sally/doingthis_again/install/moveit_assembly/share/moveit_assembly/environment/ament_prefix_path.sh
+-- Up-to-date: /home/sally/doingthis_again/install/moveit_assembly/share/moveit_assembly/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/sally/doingthis_again/install/moveit_assembly/share/moveit_assembly/environment/path.sh
+-- Up-to-date: /home/sally/doingthis_again/install/moveit_assembly/share/moveit_assembly/environment/path.dsv
+-- Up-to-date: /home/sally/doingthis_again/install/moveit_assembly/share/moveit_assembly/local_setup.bash
+-- Up-to-date: /home/sally/doingthis_again/install/moveit_assembly/share/moveit_assembly/local_setup.sh
+-- Up-to-date: /home/sally/doingthis_again/install/moveit_assembly/share/moveit_assembly/local_setup.zsh
+-- Up-to-date: /home/sally/doingthis_again/install/moveit_assembly/share/moveit_assembly/local_setup.dsv
+-- Up-to-date: /home/sally/doingthis_again/install/moveit_assembly/share/moveit_assembly/package.dsv
+-- Up-to-date: /home/sally/doingthis_again/install/moveit_assembly/share/ament_index/resource_index/packages/moveit_assembly
+-- Up-to-date: /home/sally/doingthis_again/install/moveit_assembly/share/moveit_assembly/cmake/moveit_assemblyConfig.cmake
+-- Up-to-date: /home/sally/doingthis_again/install/moveit_assembly/share/moveit_assembly/cmake/moveit_assemblyConfig-version.cmake
+-- Up-to-date: /home/sally/doingthis_again/install/moveit_assembly/share/moveit_assembly/package.xml
